@@ -1,0 +1,35 @@
+.block-title{background:rgba(0,0,0,0.3);font-size:12px;text-transform: uppercase;padding:5px 10px;display: inline-block;letter-spacing: 0.5px;line-height:13px;}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3 {
+    margin-top: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+h1{font-size:36px;}
+h2{font-size:30px;}
+h3{font-size:24px;}
+h4{font-size:18px;}
+h5{font-size:14px;}
+h6{font-size:12px;}
+.first-letter:first-letter{font-size:3em;float:left;text-transform:uppercase;padding-right:3px;}
+
+.text-left{text-align:left;}
+.text-center{text-align:center;}
+.text-right{text-align:right;}
+
+@media (min-width: 768px){
+	
+	.col-6 {
+	    float: left;
+		width:50%;
+	}
+}
+
+.row > .col-6{box-sizing:border-box;}
+.col-6 ol{padding-left:10px;margin-bottom:15px;}
+.col-6 ol li{float:none;}

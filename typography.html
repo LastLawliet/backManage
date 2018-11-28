@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Super Admin</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <script type="text/javascript" src="js/echarts.js"></script>
+</head>
+<body>
+    <header id="header">
+        <a href="" id="menu-toggle" class="l"></a>
+        <a href="index.html" class="logo l">SUPER ADMIN 1.0</a>
+        <div class="media">
+            <div class="l tm-icon">
+                <a class="drawer-toggle">
+                    <i class="sa-top-message"></i>
+                    <i class="n-count">5</i>
+                    <span>Message</span>
+                </a>
+            </div>
+            <div class="l tm-icon">
+                <a class="drawer-toggle">
+                    <i class="sa-top-updates"></i>
+                    <i class="n-count">9</i>
+                    <span>Updates</span>
+                </a>
+            </div>
+            <div id="time" class="r">
+                <span id="hour">11</span>:
+                <span id="min">46</span>:
+                <span id="sec">11</span>
+            </div>
+            <div class="media-body">
+                <input type="text" class="main-search">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--<a id="settings">-->
+            <!--<i></i>-->
+        <!--</a>-->
+        <!--<div class="modal"></div>-->
+        <!-- aside 开始-->
+        <aside id="sidebar">
+
+            <!--sidebar widgets-->
+            <div class="sidebar-widgets">
+                <!-- title -->
+                <div class="profile">
+                    <a href=""><img src="img/profile-pic.jpg" alt=""></a>
+                    <h4>Malinda Hollaway</h4>@malinda-h
+                </div>
+
+                <!--日历-->
+                <table class="fc-header">
+                    <tr>
+                        <td class="fc-header-left">November 2018</td>
+                        <td class="fc-header-center"></td>
+                        <td class="fc-header-right">
+                            <span class="prev"><</span>
+                            <span class="next">></span>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="fc-view-month">
+                    <table class="fc-border">
+                        <thead>
+                            <tr>
+                                <!--<th>SUN</th>-->
+                                <!--<th>MON</th>-->
+                                <!--<th>TUE</th>-->
+                                <!--<th>WED</th>-->
+                                <!--<th>THU</th>-->
+                                <!--<th>FRI</th>-->
+                                <!--<th>SAT</th>-->
+
+                                <th>Sun</th>
+                                <th>Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                                <th>Sat</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fc-week">
+                                <td class="not">28</td>
+                                <td class="not">29</td>
+                                <td class="not">30</td>
+                                <td class="not">31</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td class="today">4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td class="not">1</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td class="not">2</td>
+                                <td class="not">3</td>
+                                <td class="not">4</td>
+                                <td class="not">5</td>
+                                <td class="not">6</td>
+                                <td class="not">7</td>
+                                <td class="not">8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="news">
+                    <h2 class="news-title fc-header">NEWS FEEDS</h2>
+                    <div class="news-body"></div>
+                </div>
+
+                <div class="projects">
+                    <h2 class="fc-header">PROJECTS ON GOING</h2>
+                    <div class="pro-content">
+                        <ul>
+                            <li class="side-border">
+                                <span>Joomla Website</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>Opencart E-Commerce Website</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>Social Media API</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>VB.Net Software Package</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>Chrome Extension</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <ul class="side-menu">
+                <li>
+                    <a href="index.html" class="sa-side-home"></a>
+                </li>
+                <li class="active0">
+                    <a href="typography.html" class="sa-side-typography"></a>
+                </li>
+                <li>
+                    <a href="widgets.html" class="sa-side-widget"></a>
+                </li>
+                <li>
+                    <a href="tables.html" class="sa-side-table"></a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="sa-side-form"></a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="sa-side-ui"></a>
+                </li>
+                <li>
+                    <a href="charts.html" class="sa-side-chart"></a>
+                </li>
+                <li>
+                    <a href="" class="sa-side-folder"></a>
+                </li>
+                <li>
+                    <a href="" class="sa-side-calendar"></a>
+                </li>
+                <li>
+                    <a href="" class="sa-side-page"></a>
+                </li>
+            </ul>
+
+        </aside>
+        <!-- aside 结束-->
+
+        <section id="content" class="container">
+            <h4 class="page-title whiter">TYPOGRAPHY</h4>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li class="active"><a href="#">Data</a></li>
+            </ol>
+
+            <div class="block-area whiter">
+				<h3 class="block-title">Paragraph</h3>
+				<p>Pellentesque lacinia sagittis libero et feugiat. Etiam volutpat adipiscing tortor non luctus. Vivamus venenatis vitae metus et aliquet. Praesent vitae justo purus. In hendrerit lorem nisl, ac lacinia urna aliquet non. Quisque nisi tellus, rhoncus quis est sit amet, lacinia euismod nunc. Aenean nec nibh velit. Fusce quis ante in nisl molestie fringilla. Nunc vitae ante id magna feugiat condimentum. Maecenas sit amet urna massa.</p>
+				<p>Integer eu lectus sollicitudin, hendrerit est ac, sollicitudin nisl. Quisque viverra sodales lectus nec ultrices. Fusce elit dolor, dignissim a nunc id, varius suscipit turpis. Cras porttitor turpis vitae leo accumsan molestie. Morbi vitae luctus leo. Sed nec scelerisque magna, et adipiscing est. Proin lobortis lectus eu sem ullamcorper, commodo malesuada quam fringilla. Curabitur ac nunc dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sagittis enim eu est lacinia, ut egestas ligula imperdiet.</p>
+            </div>
+            <div class="block-area whiter">
+				<h3 class="block-title">Headings</h3>
+				<h1>This is a Heading 1</h1>
+				<p>Suspendisse vel quam malesuada, aliquet sem sit amet, fringilla elit. Morbi tempor tincidunt tempor. Etiam id turpis viverra, vulputate sapien nec, varius sem. Curabitur ullamcorper fringilla eleifend. In ut eros hendrerit est consequat posuere et at velit.</p>
+				<h2>This is a Heading 2</h2>
+				<p>In nec rhoncus eros. Vestibulum eu mattis nisl. Quisque viverra viverra magna nec pulvinar. Maecenas pellentesque porta augue, consectetur facilisis diam porttitor sed. Suspendisse tempor est sodales augue rutrum tincidunt. Quisque a malesuada purus.</p>
+				<h3>This is a Heading 3</h3>
+				<p>Vestibulum auctor tincidunt semper. Phasellus ut vulputate lacus. Suspendisse ultricies mi eros, sit amet tempor nulla varius sed. Proin nisl nisi, feugiat quis bibendum vitae, dapibus in tellus.</p>
+				<h4>This is a Heading 4</h4>
+				<p>Nulla et mattis nunc. Curabitur scelerisque commodo condimentum. Mauris blandit, velit a consectetur egestas, diam arcu fermentum justo, eget ultrices arcu eros vel erat.</p>
+				<h5>This is a Heading 5</h5>
+				<p>Quisque nec turpis at urna dictum luctus. Suspendisse convallis dignissim eros at volutpat. In egestas mattis dui. Aliquam mattis dictum aliquet. Nulla sapien mauris, eleifend et sem ac, commodo dapibus odio. Vivamus pretium nec odio cursus elementum. Suspendisse molestie ullamcorper ornare.</p>
+				<h6>This is a Heading 6</h6>
+				<p>Donec ultricies, lacus id tempor condimentum, orci leo faucibus sem, a molestie libero lectus ac justo. ultricies mi eros, sit amet tempor nulla varius sed. Proin nisl nisi, feugiat quis bibendum vitae, dapibus in tellus.</p>
+			</div>
+			
+			<div class="block-area whiter">
+				<h3 class="block-title">Dropcaps</h3>
+				<p class="first-letter">duis quam libero, tincidunt a urna vel, fringilla rhoncus ipsum. Phasellus aliquam erat ipsum, molestie laoreet dolor tincidunt a. Sed blandit vel justo eu tempus. Morbi et lorem sem. Curabitur vel urna eu velit feugiat laoreet sit amet eu lorem. Quisque tincidunt purus non dui laoreet, dictum consequat ante imperdiet. Nullam vel urna pharetra, porttitor massa nec, luctus purus. Vestibulum et iaculis justo. Morbi interdum semper metus et egestas. Aliquam a commodo orci. Sed aliquam hendrerit odio vel rutrum. Nullam ac molestie eros. Sed quis feugiat tortor. Curabitur tincidunt iaculis dolor, quis consequat eros cursus ut.</p>
+			</div>
+			
+			<div class="block-area whiter">
+				<h3 class="block-title">Alignment Classes</h3>
+				<p class="text-left">text-align:left; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lacus mauris. Ut tempus pellentesque lorem et pulvinar. Aliquam mollis tellus nec nibh ultrices tempor. Duis vehicula arcu a magna venenatis, at interdum nisi dignissim. Curabitur ac nulla.</p>
+				<p class="text-center">text-align:center; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lacus mauris. Ut tempus pellentesque lorem et pulvinar. Aliquam mollis tellus nec nibh ultrices tempor. Duis vehicula arcu a magna venenatis, at interdum nisi dignissim. Curabitur ac nulla.</p>
+				<p class="text-right">text-align:right; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lacus mauris. Ut tempus pellentesque lorem et pulvinar. Aliquam mollis tellus nec nibh ultrices tempor. Duis vehicula arcu a magna venenatis, at interdum nisi dignissim. Curabitur ac nulla.</p>
+			</div>
+			
+			<div class="block-area whiter">
+				<div class="row">
+					<div class="col-6 p7">
+						<h3 class="block-title">Ordered List</h3>
+						<ol>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Consectetur adipiscing elit</li>
+                            <li>Integer molestie lorem at massa</li>
+                            <li>Facilisis in pretium nisl aliquet</li>
+                            <li>Nulla volutpat aliquam velit</li>
+							<li>Phasellus iaculis neque</li>
+                            <li>Purus sodales ultricies</li>
+                            <li>Vestibulum laoreet porttitor sem</li>
+                            <li>Ac tristique libero volutpat at</li>
+                            <li>Faucibus porta lacus fringilla vel</li>
+                            <li>Aenean sit amet erat nunc</li>
+                            <li>Eget porttitor lorem</li>
+                        </ol>
+					</div>
+					<div class="col-6 p7">
+						<h3 class="block-title">Ordered List - Roman</h3>
+						<ol type="i">
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Consectetur adipiscing elit</li>
+                            <li>Integer molestie lorem at massa</li>
+                            <li>Facilisis in pretium nisl aliquet</li>
+                            <li>Nulla volutpat aliquam velit</li>
+							<li>Phasellus iaculis neque</li>
+                            <li>Purus sodales ultricies</li>
+                            <li>Vestibulum laoreet porttitor sem</li>
+                            <li>Ac tristique libero volutpat at</li>
+                            <li>Faucibus porta lacus fringilla vel</li>
+                            <li>Aenean sit amet erat nunc</li>
+                            <li>Eget porttitor lorem</li>
+                        </ol>
+					</div>
+				</div>
+			</div>
+            <!-- 小折线图 end -->
+
+            <!-- 大echarts板块 end -->
+        </section>
+    </main>
+</body>
+<!-- <script type="text/javascript" src="js/index.js"></script> -->
+
+</html>

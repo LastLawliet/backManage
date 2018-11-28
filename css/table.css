@@ -1,0 +1,17 @@
+.table{width:100%;}
+/*th,td{display: block;}*/
+table{border-collapse: collapse;border-spacing: 0;}
+.table th,.table td{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+.table-border th:not(:first-child),.table-border td:not(:first-child){border-left:1px solid rgba(255,255,255,0.05);}
+
+.table > thead th{border-top:0;background: rgba(0,0,0,0.35);font-weight: normal;text-align:left;line-height:12px;}
+.table thead,.table tbody{width:100%;}
+
+tr.fc-header{height:28px;padding-left:0;}
+
+.table-striped tbody tr:nth-child(odd){background: rgba(0,0,0,0.2);}

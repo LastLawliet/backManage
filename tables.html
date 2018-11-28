@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Super Admin</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/table.css">
+    <script type="text/javascript" src="js/echarts.js"></script>
+</head>
+<body>
+    <header id="header">
+        <a href="" id="menu-toggle" class="l"></a>
+        <a href="index.html" class="logo l">SUPER ADMIN 1.0</a>
+        <div class="media">
+            <div class="l tm-icon">
+                <a class="drawer-toggle">
+                    <i class="sa-top-message"></i>
+                    <i class="n-count">5</i>
+                    <span>Message</span>
+                </a>
+            </div>
+            <div class="l tm-icon">
+                <a class="drawer-toggle">
+                    <i class="sa-top-updates"></i>
+                    <i class="n-count">9</i>
+                    <span>Updates</span>
+                </a>
+            </div>
+            <div id="time" class="r">
+                <span id="hour">11</span>:
+                <span id="min">46</span>:
+                <span id="sec">11</span>
+            </div>
+            <div class="media-body">
+                <input type="text" class="main-search">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--<a id="settings">-->
+            <!--<i></i>-->
+        <!--</a>-->
+        <!--<div class="modal"></div>-->
+        <!-- aside 开始-->
+        <aside id="sidebar">
+
+            <!--sidebar widgets-->
+            <div class="sidebar-widgets">
+                <!-- title -->
+                <div class="profile">
+                    <a href=""><img src="img/profile-pic.jpg" alt=""></a>
+                    <h4>Malinda Hollaway</h4>@malinda-h
+                </div>
+
+                <!--日历-->
+                <table class="fc-header">
+                    <tr>
+                        <td class="fc-header-left">November 2018</td>
+                        <td class="fc-header-center"></td>
+                        <td class="fc-header-right">
+                            <span class="prev"><</span>
+                            <span class="next">></span>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="fc-view-month">
+                    <table class="fc-border">
+                        <thead>
+                            <tr>
+                                <!--<th>SUN</th>-->
+                                <!--<th>MON</th>-->
+                                <!--<th>TUE</th>-->
+                                <!--<th>WED</th>-->
+                                <!--<th>THU</th>-->
+                                <!--<th>FRI</th>-->
+                                <!--<th>SAT</th>-->
+
+                                <th>Sun</th>
+                                <th>Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                                <th>Sat</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fc-week">
+                                <td class="not">28</td>
+                                <td class="not">29</td>
+                                <td class="not">30</td>
+                                <td class="not">31</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td class="today">4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td class="not">1</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td class="not">2</td>
+                                <td class="not">3</td>
+                                <td class="not">4</td>
+                                <td class="not">5</td>
+                                <td class="not">6</td>
+                                <td class="not">7</td>
+                                <td class="not">8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="news">
+                    <h2 class="news-title fc-header">NEWS FEEDS</h2>
+                    <div class="news-body"></div>
+                </div>
+
+                <div class="projects">
+                    <h2 class="fc-header">PROJECTS ON GOING</h2>
+                    <div class="pro-content">
+                        <ul>
+                            <li class="side-border">
+                                <span>Joomla Website</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>Opencart E-Commerce Website</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>Social Media API</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>VB.Net Software Package</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>Chrome Extension</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <ul class="side-menu">
+                <li>
+                    <a href="index.html" class="sa-side-home"></a>
+                </li>
+                <li>
+                    <a href="typography.html" class="sa-side-typography"></a>
+                </li>
+                <li>
+                    <a href="widgets.html" class="sa-side-widget"></a>
+                </li>
+                <li class="active0">
+                    <a href="tables.html" class="sa-side-table"></a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="sa-side-form"></a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="sa-side-ui"></a>
+                </li>
+                <li>
+                    <a href="charts.html" class="sa-side-chart"></a>
+                </li>
+                <li>
+                    <a href="" class="sa-side-folder"></a>
+                </li>
+                <li>
+                    <a href="" class="sa-side-calendar"></a>
+                </li>
+                <li>
+                    <a href="" class="sa-side-page"></a>
+                </li>
+            </ul>
+
+        </aside>
+        <!-- aside 结束-->
+
+        <section id="content" class="container">
+            <h4 class="page-title whiter">TABELS</h4>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li class="active"><a href="#">Data</a></li>
+            </ol>
+
+            <div class="block-area">
+                <h3 class="block-title">Default Style</h3>
+                <table class="table title">
+                    <thead>
+                        <tr class="fc-header">
+                            <th>No.</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>1</td>
+                        <td>Jhon </td>
+                        <td>Makinton </td>
+                        <td>@makinton</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Malinda</td>
+                        <td>Hollaway</td>
+                        <td>@hollway</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Wayn</td>
+                        <td>Parnel</td>
+                        <td>@wayne123</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="block-area">
+                <h3 class="block-title">Responsive Table</h3>
+                <table class="table title">
+                    <thead>
+                        <tr class="fc-header">
+                            <th>No.</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                            <th>Password</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Jhon </td>
+                            <td>Makinton </td>
+                            <td>@makinton</td>
+                            <td>123@makinton</td>
+                            <td>mak@live.com</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Malinda</td>
+                            <td>Hollaway</td>
+                            <td>@hollway</td>
+                            <td>hollaway@mal</td>
+                            <td>holla@asianet.ch</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Wayn</td>
+                            <td>Parnel</td>
+                            <td>@wayne123</td>
+                            <td>wayn@3rt</td>
+                            <td>wayne-parn@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="block-area">
+                <h3 class="block-title">Table Bordered</h3>
+                <table class="table title table-border">
+                    <thead>
+                        <tr class="fc-header">
+                            <th>No.</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>1</td>
+                        <td>Jhon </td>
+                        <td>Makinton </td>
+                        <td>@makinton</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Malinda</td>
+                        <td>Hollaway</td>
+                        <td>@hollway</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Wayn</td>
+                        <td>Parnel</td>
+                        <td>@wayne123</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="block-area">
+                <h3 class="block-title">Table with Hover Style</h3>
+                <table class="table title table-border">
+                    <thead>
+                        <tr class="fc-header">
+                            <th>No.</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>1</td>
+                        <td>Jhon </td>
+                        <td>Makinton </td>
+                        <td>@makinton</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Malinda</td>
+                        <td>Hollaway</td>
+                        <td>@hollway</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Wayn</td>
+                        <td>Parnel</td>
+                        <td>@wayne123</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="block-area">
+                <h3 class="block-title">Table Condensed</h3>
+                <table class="table title">
+                    <thead>
+                        <tr class="fc-header">
+                            <th>No.</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>1</td>
+                        <td>Jhon </td>
+                        <td>Makinton </td>
+                        <td>@makinton</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Malinda</td>
+                        <td>Hollaway</td>
+                        <td>@hollway</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Wayn</td>
+                        <td>Parnel</td>
+                        <td>@wayne123</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div class="block-area">
+				<h3 class="block-title">Table Striped</h3>
+                <table class="table title table-border table-striped">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Jhon </td>
+                            <td>Makinton </td>
+                            <td>@makinton</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Malinda</td>
+                            <td>Hollaway</td>
+                            <td>@hollway</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Wayn</td>
+                            <td>Parnel</td>
+                            <td>@wayne123</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>TB - Monthly</td>
+                            <td>05/04/2012</td>
+                            <td>Call in to confirm</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>TB - Monthly</td>
+                            <td>06/04/2012</td>
+                            <td>Pending</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>TB - Monthly</td>
+                            <td>07/04/2012</td>
+                            <td>Call in to confirm</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>TB - Monthly</td>
+                            <td>08/04/2012</td>
+                            <td>Call in to confirm</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>TB - Monthly</td>
+                            <td>09/04/2012</td>
+                            <td>Call in to confirm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- 小折线图 end -->
+
+            <!-- 大echarts板块 end -->
+        </section>
+    </main>
+</body>
+<!-- <script type="text/javascript" src="js/index.js"></script> -->
+
+</html>

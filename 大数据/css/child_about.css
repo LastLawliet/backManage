@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ol,ul,li,h1,h2,h3,h4,h5,h6,form,table,td,th,dl,dt,dd,fieldset,legend,input{
+    margin:0;
+    padding:0;
+}
+html{
+    height:100%;
+}
+body {
+    font-family: "微软雅黑",Arial;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    border: none;
+    display: block;
+}
+input, button {
+    outline: none;
+}
+.header{
+    width:100%;
+    height:10%;
+
+}
+.header img{
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+}
+
+/*头部*/
+/*.header{*/
+    /*width:100%;*/
+    /*height:9.5%;*/
+
+/*}*/
+/*.header img{*/
+    /*width:100%;*/
+    /*height:60px;*/
+    /*margin: 0 auto;*/
+/*}*/
+/*内容*/
+.cont{
+    width: 100%;
+    height:90%;
+    display: flex;
+    background-color: #030510;
+}
+/*左*/
+.left{
+    width:26%;
+    height:100%;
+    border-right: 1px solid #090c16;
+    display: flex;
+    flex-flow: column;
+}
+/*左一*/
+#left1{
+    width:100%;
+    height:183px;
+    border-bottom: 1px solid #090c16;
+    border-top: 1px solid #090c16;
+    flex: 1;
+}
+#left1_top{
+    width:100%;
+    height:96px;
+}
+#left1_bottom{
+    width:100%;
+    height:87px;
+    display: flex;
+}
+#left1_bottom_left{
+    width:50%;
+    height:87px;
+}
+#left1_bottom_right{
+    width:50%;
+    height:87px;
+}
+/*左二 */
+#left2{
+    width:100%;
+    height:189px;
+    border-bottom: 1px solid #090c16;
+    flex: 1;
+}
+/*左三*/
+#left3{
+    width:100%;
+    height:189px;
+    border-bottom: 1px solid #090c16;
+    display: flex;
+    flex: 1;
+}
+#left3_left{
+    width:50%;
+    height:189px;
+
+}
+#left3_right{
+    width:50%;
+    height:189px;
+}
+/*中部*/
+.center{
+    width:48%;
+    height:100%;
+    padding:0 36px 0px 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-flow: column;
+}
+/*中上*/
+.center_top{
+    width: 100%;
+    height:140px;
+    flex: 1;
+}
+.center_top ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 23px;
+    box-sizing: border-box;
+}
+.center_top span{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.center_top span:nth-child(odd){
+    font-size: 12px;
+    color: #e6e9ef;
+    margin-bottom: 17px;
+    margin-top: 35px;
+}
+.center_top span:nth-child(even){
+    font-size: 18px;
+    color: #f9fdfe;
+}
+
+/*中中部*/
+#center_center{
+    width: 100%;
+    height:263px;  //263
+    background-color: #fff;
+    padding-left: 18px;
+    flex: 1;
+}
+.center_center_left{
+    width:203px;
+    height: 263px;
+    float: left;
+
+}
+#center_center_right{
+    width:369px;
+    height:263px;
+    float: left;
+}
+.center_center_left p{
+    display: inline-block;
+    font-size: 14px;
+    color: #92959d;
+    margin-bottom: 40px;
+    margin-top: 93px;
+}
+
+.center_center_left ul li:nth-child(odd){
+    display: inline-block;
+    font-size: 12px;
+    color: #92959d;
+    margin-bottom: 15px;
+}
+.center_center_left ul li:nth-child(even){
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #dadee3;
+}
+.center_center_left ul li:nth-child(1){
+    margin-right: 59px;
+}
+.center_center_left ul li:nth-child(3){
+    margin-right: 131px;
+}
+/*中下*/
+#center_bottom{
+    width: 100%;
+    height:162px;
+    padding-left: 18px;
+    flex: 1;
+}
+.bottom_min {
+    width: 203px;
+    height: 162px;
+    float: left;
+}
+.bottom_min p{
+    margin-top: 43px;
+    margin-bottom: 30px;
+}
+#center_bottom_qqq{
+    width:369px;
+    height: 162px;
+    float: left;
+}
+/*右*/
+.right{
+    width:26%;
+    height:100%;
+    border-left: 1px solid #090c16;
+    display: flex;
+    flex-flow: column;
+}
+#right1{
+    width:100%;
+    height:183px;
+    border-bottom: 1px solid #090c16;
+    border-top: 1px solid #090c16;
+    flex: 1;
+}
+#right2{
+    width:100%;
+    height:189px;
+    border-bottom: 1px solid #090c16;
+    flex: 1;
+}
+#right3{
+    width:100%;
+    height:189px;
+    border-bottom: 1px solid #090c16;
+    flex: 1;
+}

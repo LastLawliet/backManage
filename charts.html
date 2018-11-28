@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Super Admin</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/charts.css">
+    <script type="text/javascript" src="js/echarts.js"></script>
+</head>
+<body>
+    <header id="header">
+        <a href="" id="menu-toggle" class="l"></a>
+        <a href="index.html" class="logo l">SUPER ADMIN 1.0</a>
+        <div class="media">
+            <div class="l tm-icon">
+                <a class="drawer-toggle">
+                    <i class="sa-top-message"></i>
+                    <i class="n-count">5</i>
+                    <span>Message</span>
+                </a>
+            </div>
+            <div class="l tm-icon">
+                <a class="drawer-toggle">
+                    <i class="sa-top-updates"></i>
+                    <i class="n-count">9</i>
+                    <span>Updates</span>
+                </a>
+            </div>
+            <div id="time" class="r">
+                <span id="hour">11</span>:
+                <span id="min">46</span>:
+                <span id="sec">11</span>
+            </div>
+            <div class="media-body">
+                <input type="text" class="main-search">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--<a id="settings">-->
+            <!--<i></i>-->
+        <!--</a>-->
+        <!--<div class="modal"></div>-->
+        <!-- aside 开始-->
+        <aside id="sidebar">
+
+            <!--sidebar widgets-->
+            <div class="sidebar-widgets">
+                <!-- title -->
+                <div class="profile">
+                    <a href=""><img src="img/profile-pic.jpg" alt=""></a>
+                    <h4>Malinda Hollaway</h4>@malinda-h
+                </div>
+
+                <!--日历-->
+                <table class="fc-header">
+                    <tr>
+                        <td class="fc-header-left">November 2018</td>
+                        <td class="fc-header-center"></td>
+                        <td class="fc-header-right">
+                            <span class="prev"><</span>
+                            <span class="next">></span>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="fc-view-month">
+                    <table class="fc-border">
+                        <thead>
+                            <tr>
+                                <!--<th>SUN</th>-->
+                                <!--<th>MON</th>-->
+                                <!--<th>TUE</th>-->
+                                <!--<th>WED</th>-->
+                                <!--<th>THU</th>-->
+                                <!--<th>FRI</th>-->
+                                <!--<th>SAT</th>-->
+
+                                <th>Sun</th>
+                                <th>Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                                <th>Sat</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fc-week">
+                                <td class="not">28</td>
+                                <td class="not">29</td>
+                                <td class="not">30</td>
+                                <td class="not">31</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td class="today">4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td class="not">1</td>
+                            </tr>
+                            <tr class="fc-week">
+                                <td class="not">2</td>
+                                <td class="not">3</td>
+                                <td class="not">4</td>
+                                <td class="not">5</td>
+                                <td class="not">6</td>
+                                <td class="not">7</td>
+                                <td class="not">8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="news">
+                    <h2 class="news-title fc-header">NEWS FEEDS</h2>
+                    <div class="news-body"></div>
+                </div>
+
+                <div class="projects">
+                    <h2 class="fc-header">PROJECTS ON GOING</h2>
+                    <div class="pro-content">
+                        <ul>
+                            <li class="side-border">
+                                <span>Joomla Website</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>Opencart E-Commerce Website</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>Social Media API</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>VB.Net Software Package</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                            <li class="side-border">
+                                <span>Chrome Extension</span>
+                                <div class="progress">
+                                    <a href="" class="progress-bar"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <ul class="side-menu">
+                <li>
+                    <a href="index.html" class="sa-side-home"></a>
+                </li>
+                <li>
+                    <a href="typography.html" class="sa-side-typography"></a>
+                </li>
+                <li>
+                    <a href="widgets.html" class="sa-side-widget"></a>
+                </li>
+                <li>
+                    <a href="tables.html" class="sa-side-table"></a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="sa-side-form"></a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="sa-side-ui"></a>
+                </li>
+                <li class="active0">
+                    <a href="charts.html" class="sa-side-chart"></a>
+                </li>
+                <li>
+                    <a href="" class="sa-side-folder"></a>
+                </li>
+                <li>
+                    <a href="" class="sa-side-calendar"></a>
+                </li>
+                <li>
+                    <a href="" class="sa-side-page"></a>
+                </li>
+            </ul>
+
+        </aside>
+        <!-- aside 结束-->
+
+        <section id="content" class="container">
+            <h4 class="page-title whiter">CHARTS</h4>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li class="active"><a href="#">Data</a></li>
+            </ol>
+
+            <!-- 大echarts板块 start -->
+            <div class="block-area whiter echarts">
+                <h3 class="block-title">FLOT CHART</h3>
+                <div class="title bg0">
+
+                    <h2 class="fc-header">Line Chart</h2>
+                    <div class="title-menu">
+                        <a href=""></a>
+                    </div>
+
+                    <!-- line0 开始 -->
+                    <div class="line0">
+                        <div id="line-chart">
+
+                        </div>
+                    </div>
+                    <!-- line0 结束 -->
+                </div>
+                
+                <!-- active 开始 -->
+                <div class="title bg0">
+                    <h2 class="fc-header">Dynamic Chart</h2>
+                    <div class="title-menu">
+                        <a href=""></a>
+                    </div>
+                    
+                    <div class="active-chart">
+                        <div class="active"></div>
+                    </div>
+                </div>
+                <!-- active 结束 -->
+                
+                <!-- bar 开始 -->
+                <div class="title bg0">
+                    <h2 class="fc-header">Bar Chart</h2>
+                    <div class="title-menu">
+                        <a href=""></a>
+                    </div>
+                    
+                    <div class="bar-chart">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <!-- bar 结束 -->
+            </div>
+
+                    <div class="block-area whiter">
+                        <h3 class="block-title">FLOT CHART</h3>
+                        <div class="title bg0 circle5">
+                            <div class="p10 bg0">
+                                <div class="li">
+                                    <div class="pie-chart-tiny"></div>
+                                    <span>New Visitors <i class="iconfont">&#xe61b;</i></span>
+                                </div>
+                                <div class="li">
+                                    <div class="pie-chart-tiny"></div>
+                                    <span>Bounce Rate <i class="iconfont">&#xe61b;</i></span>
+                                </div>
+                                <div class="li">
+                                    <div class="pie-chart-tiny"></div>
+                                    <span>Emails Sent <i class="iconfont">&#xe61b;</i></span>
+                                </div>
+                                <div class="li">
+                                    <div class="pie-chart-tiny"></div>
+                                    <span>Sales Rate <i class="iconfont">&#xe61b;</i></span>
+                                </div>
+                                <div class="li">
+                                    <div class="pie-chart-tiny"></div>
+                                    <span>New Signups <i class="iconfont">&#xe61b;</i></span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- 左边 end -->
+
+
+            <div class="block-area whiter">
+                <h3 class="block-title">SPARKLINE CHARTS</h3>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="bg0">
+                            <div class="line">
+
+                            </div>
+                            <h2>94</h2>
+                            <p>Tickets Today</p>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="bg0">
+                            <div class="line">
+
+                            </div>
+                            <h2>1,400</h2>
+                            <p>Shipments today</p>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="bg0">
+                            <div class="line">
+
+                            </div>
+                            <h2>4,719</h2>
+                            <p>Orders today</p>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="bg0">
+                            <div class="line">
+
+                            </div>
+                            <h2>28,296</h2>
+                            <p>Site visits today</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 小折线图 end -->
+
+
+                    <!-- 下边 start -->
+                    <div class=" p7">
+                        <h3 class="block-title">FLOT CHART</h3>
+                        <div class="title bg0">
+                            <h2 class="fc-header">Live Visits</h2>
+                            <div class="title-menu">
+                                <a href=""></a>
+                            </div>
+                            <div class="map"></div>
+                        </div>
+						
+						<div class="title bg0">
+							<h2 class="fc-header">Social Media activities</h2>
+							<div class="title-menu">
+								<a href=""></a>
+							</div>
+							
+							<ul class="viewList narrow">
+								<li class="media">
+									<div class="r">
+										<div class="counts">367892</div>
+									</div>
+									<div class="media-body">
+										<h6>FACEBOOK LIKES</h6>
+									</div>
+								</li>
+								<li class="media">
+									<div class="r">
+										<div class="counts">2012</div>
+									</div>
+									<div class="media-body">
+										<h6>GOOGLE +1s</h6>
+									</div>
+								</li>
+								<li class="media">
+									<div class="r">
+										<div class="counts">56312</div>
+									</div>
+									<div class="media-body">
+										<h6>YOUTUBE VIEWS</h6>
+									</div>
+								</li>
+								<li class="media">
+									<div class="r">
+										<div class="counts">785879</div>
+									</div>
+									<div class="media-body">
+										<h6>TWITTER FOLLOWERS</h6>
+									</div>
+								</li>
+								<li class="media">
+									<div class="r">
+										<div class="counts">68</div>
+									</div>
+									<div class="media-body">
+										<h6>WEBSITE COMMENTS</h6>
+									</div>
+								</li>
+							</ul>
+						</div>
+						
+                    </div>
+                    <!-- 右边 end -->
+                </div>
+                <!-- row 结束-->
+            </div>
+            <!-- 大echarts板块 end -->
+        </section>
+    </main>
+</body>
+<!-- <script src="js/jquery-1.8.3.min.js"></script> -->
+<script src="js/world.js"></script>
+<script src="js/china.js"></script>
+<script type="text/javascript" src="js/charts.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</html>
